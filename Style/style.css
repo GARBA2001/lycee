@@ -1,0 +1,106 @@
+
+.bt{
+    border-radius: 50px !important;
+    background-color: rgba(0, 0, 0, 0.816) !important;
+    color: black !important;
+}
+
+.bg{
+    background-color:grey !important;
+    height: 85px;
+    margin-left: 112px;
+    margin-right: 112px;
+}
+ul ul {
+    display: none;
+  }
+  
+  ul li:hover > ul {
+    display: block;
+  }
+
+ .trois {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black !important;
+    font-size: 20px !important;
+ }
+.nb{
+    background-color: grey;
+    color: white;
+    height: 75px;
+    padding-top: 35px;
+}
+.sadi{
+    color: #f15a29;
+}
+.kil{
+    font-size: 37px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black !important;
+}
+.somd{
+    height: 300px;
+    width: 30px !important;
+    background-color: #004fff;
+    border: outset;
+    border-color: #777;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: upercase;
+    color: white;
+}
+.somda{
+    height: 300px;
+    width: 30px !important;
+    background-color: #004fff;
+    border: outset;
+    border-color: #777;
+    border-radius: 50px;
+    margin-left: 325px;
+    margin-right: 325px;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: upercase;
+    color: white;
+}
+
+
+.gb{
+    color: black !important;
+    font-style: bold !important;
+    background-color: rgb(6, 0, 0) !important;
+    word-spacing: 10%;
+    width: 200px;
+}
+    input[type="submit"]{
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 14px;
+        border: 2px solid white;
+        font-size: 18px;
+        background-color:black;
+    }
+    input[type="submit"]:hover{
+        background-color: rgb(198, 180, 180);
+        color: black;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px 0px #777;
+    }
+
+
+
+
+
+
+
+
+
+    
