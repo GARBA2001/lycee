@@ -20,31 +20,30 @@ try {
         $mot_de_passe = $_POST['mot_de_passe'];
 
         // Requête pour vérifier les informations de connexion dans la base de données
-        $stmt = $pdo->prepare("SELECT * FROM administrateurs WHERE email = ?");
+        $stmt = $pdo->prepare("SELECT * FROM parent WHERE email = ?");
         $stmt->execute([$email]);
         $administrateur = $stmt->fetch();
 
         if ($administrateur && password_verify($mot_de_passe, $administrateur['mot_de_passe'])) {
             // Les informations de connexion sont valides
             // Redirection vers la page d'accueil ou autre traitement
-            header('Location: acceuil.php');
+            header('Location: accueil.php');
             // exit();
         } else {
             // Les informations de connexion sont invalides
-            echo "";
+            echo "Identifiants invalides.";
         }
     }
 } catch (PDOException $e) {
     echo "Erreur de connexion à la base de données : " . $e->getMessage();
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Formulaire de connexion administrateur</title>
+  <title>Formulaire de connexion parent</title>
   <link rel="stylesheet" href="Style/style1.css">      
   <link rel="stylesheet" href="Style/boostrap-5.2.3-dist/boostrap-5.2.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
