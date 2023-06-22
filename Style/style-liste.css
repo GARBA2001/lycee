@@ -1,0 +1,102 @@
+body {
+  margin: 2em;
+  background-color: #bdc3c7;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: 70px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(241, 242, 237, 0.821);
+}
+
+img {
+  background-color: #fff;
+}
+
+nav {
+  background-color: rgb(8, 0, 255);
+}
+
+.cols {
+  background-color: coral;
+}
+
+.btn {
+  font-size: 19px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.acc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 200px;
+}
+
+footer {
+  position: fixed;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  background-color: #004bfb;
+  color: #fffffee5;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid;
+}
+
+.table-fixed {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.table-fixed tbody {
+  height: 200px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td {
+  float: left;
+}
+
+.table-fixed thead tr th {
+  float: left;
+  background-color: #f39c12;
+  border-color: #e67e22;
+}
